@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>CydraL的博客 • Posts by &#34;hexo&#34; category</title>
-        <link>http://Rebirth0Rookie.github.io</link>
+        <link>https://Rebirth0Rookie.github.io/project</link>
         <description>Ciallo～(∠・ω&lt; )⌒★</description>
         <language>zh-CN</language>
         <pubDate>Mon, 14 Apr 2025 22:18:26 +0800</pubDate>
@@ -13,16 +13,16 @@
         <category>博客搭建</category>
         <category>数学</category>
         <category>基础知识</category>
-        <category>编程</category>
-        <category>计算机科学</category>
-        <category>入门指南</category>
         <category>科研方法</category>
         <category>学术写作</category>
         <category>研究设计</category>
+        <category>编程</category>
+        <category>计算机科学</category>
+        <category>入门指南</category>
         <item>
-            <guid isPermalink="true">http://rebirth0rookie.github.io/2025/04/14/ShokaX%E4%B8%BB%E9%A2%98%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</guid>
+            <guid isPermalink="true">https://rebirth0rookie.github.io/project/2025/04/14/ShokaX%E4%B8%BB%E9%A2%98%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</guid>
             <title>ShokaX主题使用指南</title>
-            <link>http://rebirth0rookie.github.io/2025/04/14/ShokaX%E4%B8%BB%E9%A2%98%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</link>
+            <link>https://rebirth0rookie.github.io/project/2025/04/14/ShokaX%E4%B8%BB%E9%A2%98%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</link>
             <category>Hexo</category>
             <category>ShokaX</category>
             <category>教程</category>

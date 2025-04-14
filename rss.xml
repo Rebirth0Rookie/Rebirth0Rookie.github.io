@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>CydraL的博客</title>
-        <link>http://Rebirth0Rookie.github.io</link>
+        <link>https://Rebirth0Rookie.github.io/project</link>
         <description>Ciallo～(∠・ω&lt; )⌒★</description>
         <language>zh-CN</language>
         <pubDate>Mon, 14 Apr 2025 22:37:50 +0800</pubDate>
@@ -13,16 +13,16 @@
         <category>博客搭建</category>
         <category>数学</category>
         <category>基础知识</category>
-        <category>编程</category>
-        <category>计算机科学</category>
-        <category>入门指南</category>
         <category>科研方法</category>
         <category>学术写作</category>
         <category>研究设计</category>
+        <category>编程</category>
+        <category>计算机科学</category>
+        <category>入门指南</category>
         <item>
-            <guid isPermalink="true">http://rebirth0rookie.github.io/2025/04/14/%E7%A7%91%E7%A0%94%E6%96%B9%E6%B3%95%E8%AE%BA%E4%B8%8E%E5%AE%9E%E8%B7%B5%E6%8E%A2%E7%B4%A2/</guid>
+            <guid isPermalink="true">https://rebirth0rookie.github.io/project/2025/04/14/%E7%A7%91%E7%A0%94%E6%96%B9%E6%B3%95%E8%AE%BA%E4%B8%8E%E5%AE%9E%E8%B7%B5%E6%8E%A2%E7%B4%A2/</guid>
             <title>科研方法论与实践探索</title>
-            <link>http://rebirth0rookie.github.io/2025/04/14/%E7%A7%91%E7%A0%94%E6%96%B9%E6%B3%95%E8%AE%BA%E4%B8%8E%E5%AE%9E%E8%B7%B5%E6%8E%A2%E7%B4%A2/</link>
+            <link>https://rebirth0rookie.github.io/project/2025/04/14/%E7%A7%91%E7%A0%94%E6%96%B9%E6%B3%95%E8%AE%BA%E4%B8%8E%E5%AE%9E%E8%B7%B5%E6%8E%A2%E7%B4%A2/</link>
             <category>科研方法</category>
             <category>学术写作</category>
             <category>研究设计</category>
@@ -111,9 +111,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://rebirth0rookie.github.io/2025/04/14/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</guid>
+            <guid isPermalink="true">https://rebirth0rookie.github.io/project/2025/04/14/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</guid>
             <title>计算机编程入门指南</title>
-            <link>http://rebirth0rookie.github.io/2025/04/14/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</link>
+            <link>https://rebirth0rookie.github.io/project/2025/04/14/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</link>
             <category>编程</category>
             <category>计算机科学</category>
             <category>入门指南</category>
@@ -178,9 +178,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://rebirth0rookie.github.io/2025/04/14/%E5%AD%A6%E4%B9%A0%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</guid>
+            <guid isPermalink="true">https://rebirth0rookie.github.io/project/2025/04/14/%E5%AD%A6%E4%B9%A0%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</guid>
             <title>学习数学基础知识</title>
-            <link>http://rebirth0rookie.github.io/2025/04/14/%E5%AD%A6%E4%B9%A0%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</link>
+            <link>https://rebirth0rookie.github.io/project/2025/04/14/%E5%AD%A6%E4%B9%A0%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</link>
             <category>数学</category>
             <category>基础知识</category>
             <pubDate>Mon, 14 Apr 2025 22:33:39 +0800</pubDate>
@@ -238,9 +238,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://rebirth0rookie.github.io/2025/04/14/ShokaX%E4%B8%BB%E9%A2%98%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</guid>
+            <guid isPermalink="true">https://rebirth0rookie.github.io/project/2025/04/14/ShokaX%E4%B8%BB%E9%A2%98%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</guid>
             <title>ShokaX主题使用指南</title>
-            <link>http://rebirth0rookie.github.io/2025/04/14/ShokaX%E4%B8%BB%E9%A2%98%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</link>
+            <link>https://rebirth0rookie.github.io/project/2025/04/14/ShokaX%E4%B8%BB%E9%A2%98%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</link>
             <category>Hexo</category>
             <category>ShokaX</category>
             <category>教程</category>
@@ -335,9 +335,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://rebirth0rookie.github.io/2025/04/14/hello-world/</guid>
+            <guid isPermalink="true">https://rebirth0rookie.github.io/project/2025/04/14/hello-world/</guid>
             <title>Hello World</title>
-            <link>http://rebirth0rookie.github.io/2025/04/14/hello-world/</link>
+            <link>https://rebirth0rookie.github.io/project/2025/04/14/hello-world/</link>
             <pubDate>Mon, 14 Apr 2025 21:34:46 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;Welcome to &lt;a href=&#34;https://hexo.io/&#34;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&#34;https://hexo.io/docs/&#34;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&#34;https://hexo.io/docs/troubleshooting.html&#34;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&#34;https://github.com/hexojs/hexo/issues&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
