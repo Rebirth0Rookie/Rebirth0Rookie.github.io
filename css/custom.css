@@ -1,0 +1,92 @@
+/* 自定义样式 */
+
+/* 网站全局样式自定义 */
+:root {
+  --color-blue: #3e80f5;
+  --color-pink: #ff6b6b;
+  --color-orange: #ff9e7d;
+  --color-text: #4c4948;
+}
+
+/* 文章标题样式增强 */
+.post-title {
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+.post-title:hover {
+  transform: translateX(10px);
+}
+
+/* 链接悬停效果 */
+a:not(.button):not(.tag-link) {
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+a:not(.button):not(.tag-link):hover {
+  color: var(--color-pink);
+}
+
+a:not(.button):not(.tag-link):hover::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, var(--color-blue), var(--color-pink));
+}
+
+/* 引用块样式增强 */
+blockquote {
+  border-left: 3px solid var(--color-blue);
+  background-color: rgba(62, 128, 245, 0.1);
+  transition: all 0.3s ease;
+}
+
+blockquote:hover {
+  border-left-width: 5px;
+  transform: translateX(5px);
+}
+
+/* 代码块样式优化 */
+pre {
+  border-radius: 5px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 增加按钮悬停效果 */
+.button {
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(62, 128, 245, 0.3);
+}
+
+/* 图片悬停效果 */
+.post-body img:not(.inline) {
+  transition: all 0.5s ease;
+}
+
+.post-body img:not(.inline):hover {
+  transform: scale(1.02);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* 页脚样式优化 */
+.footer {
+  transition: all 0.3s ease;
+}
+
+/* 标签云动画 */
+.tag-cloud-tags a {
+  transition: all 0.3s ease;
+}
+
+.tag-cloud-tags a:hover {
+  transform: rotate(5deg) scale(1.1);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
