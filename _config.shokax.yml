@@ -1,0 +1,24 @@
+alternate: 拥抱过去，创造未来
+
+alternate: 拥抱过去，创造未来
+
+menu:
+  home: / || home
+  posts:
+    default: / || feather
+    archives: /archives/ || list-alt
+    categories: /categories/ || th
+    tags: /tags/ || tags
+
+social:
+  github: https://github.com/Rebirth0Rookie || github || "#191717"
+
+
+font:
+  title:
+    external: true
+    family: Noto Serif
+    size: 2.5
+  headings:
+    external: true
+    family: Noto Serif SC
