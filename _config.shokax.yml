@@ -11,6 +11,17 @@ menu:
 social:
   github: https://github.com/Rebirth0Rookie || github || "#191717"
 
+sidebar:
+  # Use a bundled asset until a personal avatar is added to source/_data/assets/.
+  avatar: logo.svg
+
+reward:
+  # Enable this only after adding payment QR code images to source/_data/assets/.
+  enable: false
+
+modules:
+  # No playlist is configured, so keep the player UI disabled.
+  player: false
 
 font:
   title:
