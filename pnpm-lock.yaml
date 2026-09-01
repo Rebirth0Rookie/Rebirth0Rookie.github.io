@@ -51,8 +51,8 @@ importers:
         specifier: 1.1.2
         version: 1.1.2(chalk@4.1.2)(hexo@7.3.0(chokidar@3.6.0))
       hexo-fs:
-        specifier: 5.0.0
-        version: 5.0.0
+        specifier: 5.0.1
+        version: 5.0.1
       hexo-generator-archive:
         specifier: ^2.0.0
         version: 2.0.0
@@ -1754,7 +1754,7 @@ packages:
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
-    deprecated: Glob versions prior to v9 are no longer supported
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   globals@15.15.0:
     resolution: {integrity: sha512-7ACyT3wmyp3I61S4fG682L0VA2RGD9otkqGJIwNUMF1SWUombIIk+af1unuDYgMm082aHYwD+mzJvv9Iu8dsgg==}
@@ -1837,8 +1837,8 @@ packages:
     resolution: {integrity: sha512-Q92zQ5PlVDouvSWFLXQoFSTLIUIODikUJs2BfAXQglyOEjN1dOQn1Z5Nimk/7GHof17R5h/uObCQLnZAjzI2tg==}
     engines: {node: '>=14'}
 
-  hexo-fs@5.0.0:
-    resolution: {integrity: sha512-oBkg1QgXyb4JxipaH+yCV/7E7XOUASTK6x1pocWvLw6U2mB6VfLENgYg61ft9Qn6JCiKSzs7FU4vyTUy6gIPvQ==}
+  hexo-fs@5.0.1:
+    resolution: {integrity: sha512-Zm4m21coQA7TtL9JL0oNZF+ypY/HbqwVdaqGqoKD+GEV7HH2Y1YObNBgl1o/lV1tzStC8f15AoRcHdS2jiWp0w==}
     engines: {node: '>=18'}
 
   hexo-generator-archive@2.0.0:
@@ -2330,6 +2330,7 @@ packages:
 
   moize@6.1.6:
     resolution: {integrity: sha512-vSKdIUO61iCmTqhdoIDrqyrtp87nWZUmBPniNjO0fX49wEYmyDO4lvlnFXiGcaH1JLE/s/9HbiK4LSHsbiUY6Q==}
+    deprecated: This library has been deprecated in favor of micro-memoize, which as-of version 5 incorporates most of the functionality that this library offers at nearly half the size and better speed.
 
   moment-timezone@0.5.45:
     resolution: {integrity: sha512-HIWmqA86KcmCAhnMAN0wuDOARV/525R2+lOLotuGFzn4HO+FH+/645z2wx0Dt3iDv6/p61SIvKnDstISainhLQ==}
@@ -2632,9 +2633,9 @@ packages:
     resolution: {integrity: sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==}
     engines: {node: '>=8.10.0'}
 
-  readdirp@4.0.2:
-    resolution: {integrity: sha512-yDMz9g+VaZkqBYS/ozoBJwaBhTbZo3UNYQHNRw1D3UFQB8oHB4uS/tAODO+ZLjGWmUbKnIlOWO+aaIiAxrUWHA==}
-    engines: {node: '>= 14.16.0'}
+  readdirp@4.1.2:
+    resolution: {integrity: sha512-GDhwkLfywWL2s6vEjyhri+eXmfH6j1L7JE27WhqLeYzoh/A3DBaYGEj2H/HFZCn/kMfim73FXxEJTw06WtxQwg==}
+    engines: {node: '>= 14.18.0'}
 
   recaptcha-v3@1.11.3:
     resolution: {integrity: sha512-sEE6J0RzUkS+sKEBpgCD/AqCU0ffrAVOADGjvAx9vcttN+VLK42SWMkj/J/I6vHu3Kew+xcfbBqDVb65N0QGDw==}
@@ -3129,6 +3130,7 @@ packages:
   whatwg-encoding@3.1.1:
     resolution: {integrity: sha512-6qN4hJdMwfYBtE3YBTTHhoeuUrDBPZmbQaxWAqSALV/MeEnR5z1xd8UKud2RAkFoPkmB+hli1TZSnyi84xz1vQ==}
     engines: {node: '>=18'}
+    deprecated: Use @exodus/bytes instead for a more spec-conformant and faster implementation
 
   whatwg-mimetype@4.0.0:
     resolution: {integrity: sha512-QaKxh0eNIi2mE9p2vEdzfagOKHCcj1pJ56EEHGQOVxp8r9/iszLUUV7v89x9O1p/T+NlTM5W7jW6+cz4Fq1YVg==}
@@ -4539,7 +4541,7 @@ snapshots:
 
   chokidar@4.0.3:
     dependencies:
-      readdirp: 4.0.2
+      readdirp: 4.1.2
 
   citty@0.1.6:
     dependencies:
@@ -5028,7 +5030,7 @@ snapshots:
       graceful-fs: 4.2.11
       hexo-util: 3.3.0
 
-  hexo-fs@5.0.0:
+  hexo-fs@5.0.1:
     dependencies:
       bluebird: 3.7.2
       chokidar: 4.0.3
@@ -5150,7 +5152,7 @@ snapshots:
       hexo: 7.3.0(chokidar@3.6.0)
       hexo-algoliasearch: 2.0.1
       hexo-feed: 1.1.2(chalk@4.1.2)(hexo@7.3.0(chokidar@3.6.0))
-      hexo-fs: 5.0.0
+      hexo-fs: 5.0.1
       hexo-pagination: 4.0.0
       hexo-renderer-aether: 0.0.6(chokidar@3.6.0)
       hexo-renderer-pug: 3.0.0
@@ -5959,7 +5961,7 @@ snapshots:
     dependencies:
       picomatch: 2.3.2
 
-  readdirp@4.0.2: {}
+  readdirp@4.1.2: {}
 
   recaptcha-v3@1.11.3: {}
 
