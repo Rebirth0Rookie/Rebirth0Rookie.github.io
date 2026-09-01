@@ -20,7 +20,7 @@
     "@algolia/client-search": "5.35.0",
     "@common.js/p-limit": "6.1.0",
     "@waline/client": "3.6.0",
-    "algoliasearch": "5.35.0",
+    "algoliasearch": "5.57.0",
     "es-toolkit": "1.39.8",
     "esbuild": "0.25.8",
     "hana-img-viewer": "^1.2.3",
