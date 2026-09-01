@@ -117,8 +117,8 @@ importers:
         specifier: 0.0.8
         version: 0.0.8
       twikoo:
-        specifier: 1.6.44
-        version: 1.6.44
+        specifier: 1.7.20
+        version: 1.7.20
       vue:
         specifier: 3.5.18
         version: 3.5.18(typescript@5.8.3)
@@ -1754,7 +1754,7 @@ packages:
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
-    deprecated: Glob versions prior to v9 are no longer supported
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   globals@15.15.0:
     resolution: {integrity: sha512-7ACyT3wmyp3I61S4fG682L0VA2RGD9otkqGJIwNUMF1SWUombIIk+af1unuDYgMm082aHYwD+mzJvv9Iu8dsgg==}
@@ -2330,6 +2330,7 @@ packages:
 
   moize@6.1.6:
     resolution: {integrity: sha512-vSKdIUO61iCmTqhdoIDrqyrtp87nWZUmBPniNjO0fX49wEYmyDO4lvlnFXiGcaH1JLE/s/9HbiK4LSHsbiUY6Q==}
+    deprecated: This library has been deprecated in favor of micro-memoize, which as-of version 5 incorporates most of the functionality that this library offers at nearly half the size and better speed.
 
   moment-timezone@0.5.45:
     resolution: {integrity: sha512-HIWmqA86KcmCAhnMAN0wuDOARV/525R2+lOLotuGFzn4HO+FH+/645z2wx0Dt3iDv6/p61SIvKnDstISainhLQ==}
@@ -2928,8 +2929,8 @@ packages:
   tslib@2.6.3:
     resolution: {integrity: sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==}
 
-  twikoo@1.6.44:
-    resolution: {integrity: sha512-Y3YfGtMelWT+1XxZS8SmGXkHZ6/26ry1ZteKKBNTYV0oA+o5/2ELUMi4ta2zYD/V0wGZGv6EXJ6HJU8GTPVh4g==}
+  twikoo@1.7.20:
+    resolution: {integrity: sha512-TNEr4jq6SKECZSG95zQYWg5R3ivWZYDqa+oTu2AGZcZL1z/XmMuCcTnkxC+bW/PFt2F28dl+AlVkpm4Gk45BWQ==}
 
   typescript@5.8.2:
     resolution: {integrity: sha512-aJn6wq13/afZp/jT9QZmwEjDqqvSGp1VT5GVg+f/t6/oVyrgXM6BY1h9BRh/O5p3PlUPAe+WuiEZOmb/49RqoQ==}
@@ -3129,6 +3130,7 @@ packages:
   whatwg-encoding@3.1.1:
     resolution: {integrity: sha512-6qN4hJdMwfYBtE3YBTTHhoeuUrDBPZmbQaxWAqSALV/MeEnR5z1xd8UKud2RAkFoPkmB+hli1TZSnyi84xz1vQ==}
     engines: {node: '>=18'}
+    deprecated: Use @exodus/bytes instead for a more spec-conformant and faster implementation
 
   whatwg-mimetype@4.0.0:
     resolution: {integrity: sha512-QaKxh0eNIi2mE9p2vEdzfagOKHCcj1pJ56EEHGQOVxp8r9/iszLUUV7v89x9O1p/T+NlTM5W7jW6+cz4Fq1YVg==}
@@ -5162,7 +5164,7 @@ snapshots:
       nyx-player: 0.1.1(postcss@8.5.26)(rollup@4.63.1)(typescript@5.8.3)(vite@6.4.3(@types/node@20.14.9)(jiti@2.4.2)(lightningcss@1.29.3)(stylus@0.62.0))
       shokax-uikit: 0.0.5(@types/node@20.14.9)(rollup@4.63.1)(typescript@5.8.3)(vite@6.4.3(@types/node@20.14.9)(jiti@2.4.2)(lightningcss@1.29.3)(stylus@0.62.0))
       theme-shokax-anime: 0.0.8
-      twikoo: 1.6.44
+      twikoo: 1.7.20
       vue: 3.5.18(typescript@5.8.3)
     transitivePeerDependencies:
       - '@pinia/nuxt'
@@ -6314,7 +6316,7 @@ snapshots:
 
   tslib@2.6.3: {}
 
-  twikoo@1.6.44: {}
+  twikoo@1.7.20: {}
 
   typescript@5.8.2: {}
 
