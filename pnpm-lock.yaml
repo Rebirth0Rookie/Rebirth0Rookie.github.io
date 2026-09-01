@@ -39,8 +39,8 @@ importers:
         specifier: 0.25.8
         version: 0.25.8
       hana-img-viewer:
-        specifier: ^1.2.3
-        version: 1.2.3
+        specifier: ^5.2.0
+        version: 5.2.0(vue@3.5.18(typescript@5.8.3))
       hexo:
         specifier: 7.3.0
         version: 7.3.0(chokidar@3.6.0)
@@ -1754,7 +1754,7 @@ packages:
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
-    deprecated: Glob versions prior to v9 are no longer supported
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   globals@15.15.0:
     resolution: {integrity: sha512-7ACyT3wmyp3I61S4fG682L0VA2RGD9otkqGJIwNUMF1SWUombIIk+af1unuDYgMm082aHYwD+mzJvv9Iu8dsgg==}
@@ -1774,8 +1774,13 @@ packages:
     resolution: {integrity: sha512-ax7ZYomf6jqPTQ4+XCpUGyXKHk5WweS+e05MBO4/y3WJ5RkmPXNKvX+bx1behVILVwr6JSQvZAku021CHPXG3Q==}
     engines: {node: '>=10'}
 
-  hana-img-viewer@1.2.3:
-    resolution: {integrity: sha512-TqEaIZB5nnum72eGI6sMRjMkVDTAv5qvJ8G4oRjNmZN6/HPKmZ5ROBX0a93nP9Qsn7m0VAReJ1QvXidyiZ9f6A==}
+  hana-img-viewer@1.2.9:
+    resolution: {integrity: sha512-qOfw8MI0k+9Rchoby1j08iv72RHCg+rFavcifY0mW+/0OB1aXKSx3GGtO32EevCMLoBNXb0/zUBBTAGwyHzhpQ==}
+
+  hana-img-viewer@5.2.0:
+    resolution: {integrity: sha512-W7s02a/3peYK9K3bSwvKPbbZfrHINm9KnHVjgDxR1jc6oI3TpRmquaA8ziE3XPTQL94oV1MPR7BtQvKNuadylg==}
+    peerDependencies:
+      vue: ^3.5.0
 
   has-flag@4.0.0:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
@@ -2330,6 +2335,7 @@ packages:
 
   moize@6.1.6:
     resolution: {integrity: sha512-vSKdIUO61iCmTqhdoIDrqyrtp87nWZUmBPniNjO0fX49wEYmyDO4lvlnFXiGcaH1JLE/s/9HbiK4LSHsbiUY6Q==}
+    deprecated: This library has been deprecated in favor of micro-memoize, which as-of version 5 incorporates most of the functionality that this library offers at nearly half the size and better speed.
 
   moment-timezone@0.5.45:
     resolution: {integrity: sha512-HIWmqA86KcmCAhnMAN0wuDOARV/525R2+lOLotuGFzn4HO+FH+/645z2wx0Dt3iDv6/p61SIvKnDstISainhLQ==}
@@ -3129,6 +3135,7 @@ packages:
   whatwg-encoding@3.1.1:
     resolution: {integrity: sha512-6qN4hJdMwfYBtE3YBTTHhoeuUrDBPZmbQaxWAqSALV/MeEnR5z1xd8UKud2RAkFoPkmB+hli1TZSnyi84xz1vQ==}
     engines: {node: '>=18'}
+    deprecated: Use @exodus/bytes instead for a more spec-conformant and faster implementation
 
   whatwg-mimetype@4.0.0:
     resolution: {integrity: sha512-QaKxh0eNIi2mE9p2vEdzfagOKHCcj1pJ56EEHGQOVxp8r9/iszLUUV7v89x9O1p/T+NlTM5W7jW6+cz4Fq1YVg==}
@@ -4952,7 +4959,11 @@ snapshots:
     dependencies:
       duplexer: 0.1.2
 
-  hana-img-viewer@1.2.3: {}
+  hana-img-viewer@1.2.9: {}
+
+  hana-img-viewer@5.2.0(vue@3.5.18(typescript@5.8.3)):
+    dependencies:
+      vue: 3.5.18(typescript@5.8.3)
 
   has-flag@4.0.0: {}
 
@@ -5146,7 +5157,7 @@ snapshots:
       algoliasearch: 5.34.1
       es-toolkit: 1.39.8
       esbuild: 0.25.8
-      hana-img-viewer: 1.2.3
+      hana-img-viewer: 1.2.9
       hexo: 7.3.0(chokidar@3.6.0)
       hexo-algoliasearch: 2.0.1
       hexo-feed: 1.1.2(chalk@4.1.2)(hexo@7.3.0(chokidar@3.6.0))
