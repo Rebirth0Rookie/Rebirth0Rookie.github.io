@@ -2,11 +2,10 @@ alternate: 拥抱过去，创造未来
 
 menu:
   home: / || home
-  posts:
-    default: / || feather
-    archives: /archives/ || list-alt
-    categories: /categories/ || th
-    tags: /tags/ || tags
+  posts: / || feather
+  archives: /archives/ || list-alt
+  categories: /categories/ || th
+  about: /about/ || user
 
 social:
   github: https://github.com/Rebirth0Rookie || github || "#191717"

@@ -101,11 +101,15 @@ pnpm exec hexo server --port 4001
 │   ├── dependabot.yml       # 依赖更新配置
 │   └── workflows/pages.yml  # GitHub Pages 构建与部署
 ├── scaffolds/               # 文章、页面和草稿模板
+├── scripts/
+│   └── shokax-navigation.js # 注册导航高亮修正脚本
 ├── source/
 │   ├── _data/
 │   │   ├── assets/          # 头像、二维码等主题资源
 │   │   └── images.yml       # ShokaX 背景图列表
 │   ├── _posts/              # 已发布文章
+│   ├── about/               # “关于”独立页面
+│   ├── js/                  # 项目自定义浏览器脚本
 │   └── images/              # 博客图片
 ├── themes/shokax            # 指向 node_modules 中 ShokaX 的符号链接
 ├── tools/check-links.mjs    # 生成物本地链接检查器
@@ -231,6 +235,32 @@ sidebar:
 ```
 
 赞赏功能当前关闭。准备好收款二维码后，将图片放入 `source/_data/assets/`，再配置并启用 `reward`。
+
+### 顶部导航
+
+桌面端顶部直接显示“首页、文章、归档、分类、关于”，移动端仍使用 ShokaX 原有的折叠菜单。菜单名称、地址和顺序统一在 `_config.shokax.yml` 中维护：
+
+```yaml
+menu:
+  home: / || home
+  posts: / || feather
+  archives: /archives/ || list-alt
+  categories: /categories/ || th
+  about: /about/ || user
+```
+
+YAML 中的排列顺序就是导航显示顺序。新增独立页面时，先创建页面，再把入口添加到 `menu`。例如新增友情链接：
+
+```bash
+pnpm exec hexo new page friends
+```
+
+```yaml
+menu:
+  friends: /friends/ || heart
+```
+
+ShokaX 会把这组扁平菜单直接显示在桌面端顶部，并在移动端继续使用折叠菜单。“首页”和“文章”都进入首页文章列表；`scripts/shokax-navigation.js` 会加载 `source/js/custom-navigation.js`，保证首页只高亮“首页”，打开具体文章时高亮“文章”。不要直接修改 `themes/shokax` 或 `node_modules/hexo-theme-shokax`，依赖重装或升级时这些修改会丢失。
 
 ### 首页背景图
 
